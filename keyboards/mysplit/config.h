@@ -6,9 +6,8 @@
  */
 
 // Double the actual rows (5 for each half)
-#define MATRIX_ROWS 5
+#define MATRIX_ROWS 10
 #define MATRIX_COLS 16
-// #define MATRIX_COLS_RIGHT 8
 
 /* disable debug print */
 //#define NO_DEBUG
@@ -24,3 +23,7 @@
 // Half duplex operations
 #define SERIAL_PIO_USE_PIO1 // Force the usage of PIO1 peripheral, by default the Serial implementation uses the PIO0 peripheral
 #define SERIAL_USART_TX_PIN GP19     // USART TX pin
+
+
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
