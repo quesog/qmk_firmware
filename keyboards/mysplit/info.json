@@ -16,11 +16,10 @@
     },
     "diode_direction": "COL2ROW",
     "matrix_pins": {
-        "cols": [ "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9" ],
+        "cols": [ "GP9" , "GP8", "GP7", "GP6", "GP5", "GP4", "GP3", "GP2" ],
         "rows": [ "GP29", "GP28", "GP27", "GP26", "GP18" ]
     },
     "split": {
-        "enabled": true,
         "matrix_pins": {
             "right": {
                 "cols": [ "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9" ],
@@ -30,8 +29,8 @@
     },
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
+        "vid": "0x6B63",
+        "pid": "0x0000"
     },
     "layouts": {
         "LAYOUT_default": {
@@ -108,7 +107,7 @@
                 { "matrix": [4, 11], "label": "Alt", "x": 14.25, "y": 4, "w": 1.25 },
                 { "matrix": [4, 12], "label": "Win", "x": 15.5, "y": 4, "w": 1.25 },
                 { "matrix": [4, 13], "label": "Menu", "x": 16.75, "y": 4, "w": 1.25 },
-                { "matrix": [4, 15], "label": "Ctrl", "x": 18, "y": 4, "w": 1.25 }
+                { "matrix": [4, 14], "label": "Ctrl", "x": 18, "y": 4, "w": 1.25 }
             ]
         }
     }
