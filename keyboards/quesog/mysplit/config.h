@@ -6,8 +6,9 @@
  */
 
 // Double the actual rows (5 for each half)
-#define MATRIX_ROWS 10
-#define MATRIX_COLS 16
+// 2026-07-08 - I have to comment this out now?
+// #define MATRIX_ROWS 10
+// #define MATRIX_COLS 16
 
 /* disable debug print */
 //#define NO_DEBUG
@@ -28,5 +29,9 @@
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 #define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
 
-#define BOOTMAGIC_LITE_ROW_RIGHT 5
-#define BOOTMAGIC_LITE_COLUMN_RIGHT 6
+// #define BOOTMAGIC_LITE_ROW_RIGHT 5
+// #define BOOTMAGIC_LITE_COLUMN_RIGHT 6
+
+#define SPLIT_USB_DETECT
+#define SPLIT_USB_TIMEOUT 2000
+#define SPLIT_USB_TIMEOUT_POLL 10
